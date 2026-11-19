@@ -1,0 +1,26 @@
+{
+  "name": "pc03-huancasfloreszuleikayanira",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run back\" \"npm run front\"",
+    "back": "cd backend && node index.js",
+    "front": "cd frontend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuancasZuleika/PC03-HuancasFloresZuleikaYanira.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuancasZuleika/PC03-HuancasFloresZuleikaYanira/issues"
+  },
+  "homepage": "https://github.com/HuancasZuleika/PC03-HuancasFloresZuleikaYanira#readme",
+  "dependencies": {
+    "concurrently": "^10.0.7",
+    "currently": "^0.0.8"
+  }
+}
